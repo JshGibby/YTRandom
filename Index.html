@@ -24,6 +24,9 @@
             padding: 10px;
             background-color: #fff;
         }
+        .center {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -42,6 +45,14 @@
     </label>
     <div>
         <label>
+            <input type="radio" name="searchType" value="Top Result" checked> Top Result
+        </label>
+        <label>
+            <input type="radio" name="searchType" value="Random Search"> Random Search
+        </label>
+    </div>
+    <div>
+        <label>
             <input type="radio" name="type" value="Official Audio" checked> Official Audio
         </label>
         <label>
@@ -49,7 +60,7 @@
         </label>
     </div>
     <button onclick="searchSong()">Search</button>
-    <div id="result"></div>
+    <div id="result" class="center"></div>
     <div id="lyrics-container">
         <div id="lyrics"></div>
     </div>
@@ -81,12 +92,29 @@
             return genres[Math.floor(Math.random() * genres.length)];
         }
 
+        async function fetchLyrics(artist, songTitle) {
+            const cleanTitle = songTitle.replace(/\(.*?\)/g, '').trim(); // Remove anything in parentheses
+            try {
+                const response = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(artist)}/${encodeURIComponent(cleanTitle)}`);
+                const data = await response.json();
+                if (data.lyrics) {
+                    return `<pre>${data.lyrics}</pre>`;
+                } else {
+                    throw new Error("No lyrics found");
+                }
+            } catch (error) {
+                console.error('Lyrics fetch error:', error);
+                return "Lyrics not found.";
+            }
+        }
+
         async function searchSong() {
             try {
                 const titleInput = document.getElementById('title');
                 const genreInput = document.getElementById('genre');
                 const useRandomTitle = document.getElementById('randomTitle').checked;
                 const useRandomGenre = document.getElementById('randomGenre').checked;
+                const searchType = document.querySelector('input[name="searchType"]:checked').value;
                 const type = document.querySelector('input[name="type"]:checked').value;
 
                 const title = useRandomTitle ? await getRandomWord() : titleInput.value;
@@ -100,72 +128,69 @@
                 const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
                 const targetUrl = `https://www.youtube.com/results?search_query=${encodedSearchQuery}`;
                 const url = proxyUrl + targetUrl;
-                
+
                 const response = await fetch(url);
                 if (!response.ok) {
                     if (response.status === 429) {
                         console.warn('Rate limit exceeded. Retrying after delay...');
-                        setTimeout(searchSong, 5000); // Retry after 5 seconds
+                        setTimeout(searchSong, 5000);
                         return;
                     }
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const text = await response.text();
-                const videoIdMatch = text.match(/"videoId":"(.*?)"/);
-                const titleMatch = text.match(/"title":{"runs":\[{"text":"(.*?)"}/);
-                if (videoIdMatch && titleMatch) {
-                    const videoId = videoIdMatch[1];
-                    const videoTitle = titleMatch[1];
-                    const linkCode = `<div><strong>${videoTitle}</strong></div><a href="https://www.youtube.com/watch?v=${videoId}" target="_blank">${title} ${genre} (${type})</a>`;
-                    document.getElementById('result').innerHTML = linkCode;
+                const videoIdMatches = text.match(/"videoId":"(.*?)"/g) || [];
+                const titleMatches = text.match(/"title":{"runs":\[{"text":"(.*?)"}/g) || [];
 
-                    // Extract artist and song title from videoTitle
-                    let artist = "";
-                    let songTitle = videoTitle;
-                    if (videoTitle.includes(" - ")) {
-                        const parts = videoTitle.split(" - ");
-                        if (parts.length === 2) {
-                            artist = parts[0].trim();
-                            songTitle = parts[1].trim();
-                        }
-                    } else if (videoTitle.includes(" - ")) {
-                        const parts = videoTitle.split(" - ");
-                        if (parts.length === 2) {
-                            songTitle = parts[0].trim();
-                            artist = parts[1].trim();
+                if (videoIdMatches.length > 0) {
+                    let videoId, videoTitle;
+                    if (searchType === "Top Result") {
+                        videoId = videoIdMatches[0].match(/"videoId":"(.*?)"/)[1];
+                        videoTitle = titleMatches[0].match(/"title":{"runs":\[{"text":"(.*?)"}/)[1];
+                    } else {
+                        const randomIndex = Math.floor(Math.random() * videoIdMatches.length);
+                        videoId = videoIdMatches[randomIndex].match(/"videoId":"(.*?)"/)[1];
+                        const videoLink = `https://www.youtube.com/watch?v=${videoId}`;
+                        const videoCheckUrl = `https://www.youtube.com/oembed?url=${videoLink}&format=json`;
+                        const videoCheckResponse = await fetch(videoCheckUrl);
+
+                        if (videoCheckResponse.ok) {
+                            const videoData = await videoCheckResponse.json();
+                            videoTitle = videoData.title;
+                        } else {
+                            videoTitle = `Random Video ${randomIndex + 1}`;
                         }
                     }
-                    const cleanTitle = songTitle.replace(/\(.*?\)/g, '').trim();
-                    if (artist && songTitle) {
-                        // Fetch lyrics using the extracted artist and song title
-                        try {
-                            const lyricsResponse = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(artist)}/${encodeURIComponent(cleanTitle)}`);
-                            const lyricsData = await lyricsResponse.json();
-                            if (lyricsData.lyrics) {
-                                document.getElementById('lyrics').innerHTML = `<pre>${lyricsData.lyrics}</pre>`;
-                            } else {
-                                // If lyrics not found with artist, search using only the song title
-                                const lyricsResponseTitleOnly = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(cleanTitle)}`);
-                                const lyricsDataTitleOnly = await lyricsResponseTitleOnly.json();
-                                if (lyricsDataTitleOnly.lyrics) {
-                                    document.getElementById('lyrics').innerHTML = `<pre>${lyricsDataTitleOnly.lyrics}</pre>`;
-                                } else {
-                                    document.getElementById('lyrics').innerHTML = "Can't Find Any Lyrics.";
-                                }
+
+                    const videoLink = `https://www.youtube.com/watch?v=${videoId}`;
+                    const videoCheckUrl = `https://www.youtube.com/oembed?url=${videoLink}&format=json`;
+                    const videoCheckResponse = await fetch(videoCheckUrl);
+
+                    if (videoCheckResponse.ok) {
+                        const linkCode = `<div><a href="${videoLink}" target="_blank">${videoTitle}</a></div>`;
+                        document.getElementById('result').innerHTML = linkCode;
+
+                        // Extract artist and song title for lyrics fetching
+                        let artist = "";
+                        let songTitle = videoTitle;
+                        if (videoTitle.includes(" - ")) {
+                            const parts = videoTitle.split(" - ");
+                            if (parts.length === 2) {
+                                artist = parts[0].trim();
+                                songTitle = parts[1].trim();
                             }
-                        } catch (lyricsError) {
-                            console.error('An error occurred while fetching the lyrics:', lyricsError);
-                            document.getElementById('lyrics').innerHTML = "Can't Find Any Lyrics.";
                         }
-                    } else {
-                        // If artist not found, search using only the song title
-                        const lyricsResponseTitleOnly = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(cleanTitle)}`);
-                        const lyricsDataTitleOnly = await lyricsResponseTitleOnly.json();
-                        if (lyricsDataTitleOnly.lyrics) {
-                            document.getElementById('lyrics').innerHTML = `<pre>${lyricsDataTitleOnly.lyrics}</pre>`;
+
+                        if (artist && songTitle) {
+                            const lyrics = await fetchLyrics(artist, songTitle);
+                            document.getElementById('lyrics').innerHTML = lyrics;
                         } else {
-                            document.getElementById('lyrics').innerHTML = "Can't Find Any Lyrics.";
+                            document.getElementById('lyrics').innerHTML = "Unable to fetch lyrics for this video.";
                         }
+
+                        console.log('Retrieved Video:', videoTitle);
+                    } else {
+                        document.getElementById('result').innerHTML = "Video unavailable.";
                     }
                 } else {
                     document.getElementById('result').innerHTML = "No video found.";
