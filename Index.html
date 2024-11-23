@@ -109,12 +109,17 @@
                     document.getElementById('result').innerHTML = linkCode;
 
                     // Fetch lyrics using the retrieved title
-                    const lyricsResponse = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(videoTitle)}/${encodeURIComponent(genre)}`);
-                    const lyricsData = await lyricsResponse.json();
-                    if (lyricsData.lyrics) {
-                        document.getElementById('lyrics').innerHTML = `<pre>${lyricsData.lyrics}</pre>`;
-                    } else {
-                        document.getElementById('lyrics').innerHTML = "No lyrics found.";
+                    try {
+                        const lyricsResponse = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(videoTitle)}/${encodeURIComponent(genre)}`);
+                        const lyricsData = await lyricsResponse.json();
+                        if (lyricsData.lyrics) {
+                            document.getElementById('lyrics').innerHTML = `<pre>${lyricsData.lyrics}</pre>`;
+                        } else {
+                            document.getElementById('lyrics').innerHTML = "Can't find lyrics for that artist.";
+                        }
+                    } catch (lyricsError) {
+                        console.error('An error occurred while fetching the lyrics:', lyricsError);
+                        document.getElementById('lyrics').innerHTML = "Can't find lyrics for that artist.";
                     }
                 } else {
                     document.getElementById('result').innerHTML = "No video found.";
