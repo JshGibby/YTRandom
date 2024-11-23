@@ -101,9 +101,7 @@
                 }
                 const text = await response.text();
                 const videoIdMatch = text.match(/"videoId":"(.*?)"/);
-                const titleMatch = text.match(/"title":{"runs":
-
-\[{"text":"(.*?)"}/);
+                const titleMatch = text.match(/"title":{"runs":\[{"text":"(.*?)"}/);
                 if (videoIdMatch && titleMatch) {
                     const videoId = videoIdMatch[1];
                     const videoTitle = titleMatch[1];
