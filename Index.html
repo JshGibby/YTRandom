@@ -117,13 +117,18 @@
                 const searchType = document.querySelector('input[name="searchType"]:checked').value;
                 const type = document.querySelector('input[name="type"]:checked').value;
 
-                const title = useRandomTitle ? await getRandomWord() : titleInput.value;
-                if (useRandomTitle) titleInput.value = title;
+                if (useRandomTitle) {
+                    titleInput.value = await getRandomWord();
+                }
 
-                const genre = useRandomGenre ? await getRandomGenre() : genreInput.value;
-                if (useRandomGenre) genreInput.value = genre;
+                if (useRandomGenre) {
+                    genreInput.value = await getRandomGenre();
+                }
 
-                const searchQuery = `${title} ${genre} (${type})`;
+                const title = titleInput.value;
+                const genre = genreInput.value;
+
+                const searchQuery = `${title} ${genre}(${type})`;
                 const encodedSearchQuery = encodeURIComponent(searchQuery);
                 const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
                 const targetUrl = `https://www.youtube.com/results?search_query=${encodedSearchQuery}`;
