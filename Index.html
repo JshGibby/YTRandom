@@ -112,9 +112,7 @@
                 }
                 const text = await response.text();
                 const videoIdMatch = text.match(/"videoId":"(.*?)"/);
-                const titleMatch = text.match(/"title":{"runs":
-
-\[{"text":"(.*?)"}/);
+                const titleMatch = text.match(/"title":{"runs":\[{"text":"(.*?)"}/);
                 if (videoIdMatch && titleMatch) {
                     const videoId = videoIdMatch[1];
                     const videoTitle = titleMatch[1];
@@ -122,23 +120,52 @@
                     document.getElementById('result').innerHTML = linkCode;
 
                     // Extract artist and song title from videoTitle
-                    const [artist, songTitle] = videoTitle.split(" - ");
+                    let artist = "";
+                    let songTitle = videoTitle;
+                    if (videoTitle.includes(" - ")) {
+                        const parts = videoTitle.split(" - ");
+                        if (parts.length === 2) {
+                            artist = parts[0].trim();
+                            songTitle = parts[1].trim();
+                        }
+                    } else if (videoTitle.includes(" - ")) {
+                        const parts = videoTitle.split(" - ");
+                        if (parts.length === 2) {
+                            songTitle = parts[0].trim();
+                            artist = parts[1].trim();
+                        }
+                    }
+                    const cleanTitle = songTitle.replace(/\(.*?\)/g, '').trim();
                     if (artist && songTitle) {
                         // Fetch lyrics using the extracted artist and song title
                         try {
-                            const lyricsResponse = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(artist)}/${encodeURIComponent(songTitle)}`);
+                            const lyricsResponse = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(artist)}/${encodeURIComponent(cleanTitle)}`);
                             const lyricsData = await lyricsResponse.json();
                             if (lyricsData.lyrics) {
                                 document.getElementById('lyrics').innerHTML = `<pre>${lyricsData.lyrics}</pre>`;
                             } else {
-                                document.getElementById('lyrics').innerHTML = "Can't find lyrics for that artist.";
+                                // If lyrics not found with artist, search using only the song title
+                                const lyricsResponseTitleOnly = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(cleanTitle)}`);
+                                const lyricsDataTitleOnly = await lyricsResponseTitleOnly.json();
+                                if (lyricsDataTitleOnly.lyrics) {
+                                    document.getElementById('lyrics').innerHTML = `<pre>${lyricsDataTitleOnly.lyrics}</pre>`;
+                                } else {
+                                    document.getElementById('lyrics').innerHTML = "Can't Find Any Lyrics.";
+                                }
                             }
                         } catch (lyricsError) {
                             console.error('An error occurred while fetching the lyrics:', lyricsError);
-                            document.getElementById('lyrics').innerHTML = "Can't find lyrics for that artist.";
+                            document.getElementById('lyrics').innerHTML = "Can't Find Any Lyrics.";
                         }
                     } else {
-                        document.getElementById('lyrics').innerHTML = "Can't find lyrics for that artist.";
+                        // If artist not found, search using only the song title
+                        const lyricsResponseTitleOnly = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(cleanTitle)}`);
+                        const lyricsDataTitleOnly = await lyricsResponseTitleOnly.json();
+                        if (lyricsDataTitleOnly.lyrics) {
+                            document.getElementById('lyrics').innerHTML = `<pre>${lyricsDataTitleOnly.lyrics}</pre>`;
+                        } else {
+                            document.getElementById('lyrics').innerHTML = "Can't Find Any Lyrics.";
+                        }
                     }
                 } else {
                     document.getElementById('result').innerHTML = "No video found.";
