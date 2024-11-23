@@ -15,6 +15,15 @@
             margin: 0;
             background-color: #f0f0f0;
         }
+        #lyrics-container {
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #fff;
+        }
     </style>
 </head>
 <body>
@@ -41,7 +50,9 @@
     </div>
     <button onclick="searchSong()">Search</button>
     <div id="result"></div>
-    <div id="lyrics"></div>
+    <div id="lyrics-container">
+        <div id="lyrics"></div>
+    </div>
 
     <script>
         function openCORS() {
@@ -101,24 +112,32 @@
                 }
                 const text = await response.text();
                 const videoIdMatch = text.match(/"videoId":"(.*?)"/);
-                const titleMatch = text.match(/"title":{"runs":\[{"text":"(.*?)"}/);
+                const titleMatch = text.match(/"title":{"runs":
+
+\[{"text":"(.*?)"}/);
                 if (videoIdMatch && titleMatch) {
                     const videoId = videoIdMatch[1];
                     const videoTitle = titleMatch[1];
                     const linkCode = `<div><strong>${videoTitle}</strong></div><a href="https://www.youtube.com/watch?v=${videoId}" target="_blank">${title} ${genre} (${type})</a>`;
                     document.getElementById('result').innerHTML = linkCode;
 
-                    // Fetch lyrics using the retrieved title
-                    try {
-                        const lyricsResponse = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(videoTitle)}/${encodeURIComponent(genre)}`);
-                        const lyricsData = await lyricsResponse.json();
-                        if (lyricsData.lyrics) {
-                            document.getElementById('lyrics').innerHTML = `<pre>${lyricsData.lyrics}</pre>`;
-                        } else {
+                    // Extract artist and song title from videoTitle
+                    const [artist, songTitle] = videoTitle.split(" - ");
+                    if (artist && songTitle) {
+                        // Fetch lyrics using the extracted artist and song title
+                        try {
+                            const lyricsResponse = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(artist)}/${encodeURIComponent(songTitle)}`);
+                            const lyricsData = await lyricsResponse.json();
+                            if (lyricsData.lyrics) {
+                                document.getElementById('lyrics').innerHTML = `<pre>${lyricsData.lyrics}</pre>`;
+                            } else {
+                                document.getElementById('lyrics').innerHTML = "Can't find lyrics for that artist.";
+                            }
+                        } catch (lyricsError) {
+                            console.error('An error occurred while fetching the lyrics:', lyricsError);
                             document.getElementById('lyrics').innerHTML = "Can't find lyrics for that artist.";
                         }
-                    } catch (lyricsError) {
-                        console.error('An error occurred while fetching the lyrics:', lyricsError);
+                    } else {
                         document.getElementById('lyrics').innerHTML = "Can't find lyrics for that artist.";
                     }
                 } else {
