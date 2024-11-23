@@ -110,8 +110,8 @@
                     const linkCode = `<div><strong>${videoTitle}</strong></div><a href="https://www.youtube.com/watch?v=${videoId}" target="_blank">${title} ${genre} (${type})</a>`;
                     document.getElementById('result').innerHTML = linkCode;
 
-                    // Fetch lyrics
-                    const lyricsResponse = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(title)}/${encodeURIComponent(genre)}`);
+                    // Fetch lyrics using the retrieved title
+                    const lyricsResponse = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(videoTitle)}/${encodeURIComponent(genre)}`);
                     const lyricsData = await lyricsResponse.json();
                     if (lyricsData.lyrics) {
                         document.getElementById('lyrics').innerHTML = `<pre>${lyricsData.lyrics}</pre>`;
