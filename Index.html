@@ -3,223 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Music Search</title>
+    <title>YouTube Player Word Randomizer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
+        /* Custom scrollbar for lyrics */
+        #lyrics-container::-webkit-scrollbar {
+            width: 8px;
         }
-        #lyrics-container {
-            width: 100%;
-            max-width: 600px;
-            height: 300px;
-            overflow-y: scroll;
-            border: 1px solid #ccc;
-            padding: 10px;
-            background-color: #fff;
+        #lyrics-container::-webkit-scrollbar-track {
+            background: #f1f1f1;
         }
-        .center {
-            text-align: center;
+        #lyrics-container::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+        #lyrics-container::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        
+        /* Animation for loading */
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .animate-pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
         }
     </style>
 </head>
-<body>
-    <h1>YouTube Music Search</h1>
-    <button onclick="openCORS()">CORS Enabling System</button>
-    <label>
-        <input type="checkbox" id="randomTitle" onchange="toggleInput('title', 'randomTitle')"> Use random title
-    </label>
-    <input type="text" id="title" placeholder="Enter song title">
-    <label>
-        <input type="checkbox" id="randomGenre" onchange="toggleInput('genre', 'randomGenre')"> Use random genre
-    </label>
-    <input type="text" id="genre" placeholder="Enter genre">
-    <div>
-        <label>
-            <input type="radio" name="searchType" value="Top Result" checked> Top Result
-        </label>
-        <label>
-            <input type="radio" name="searchType" value="Random Search"> Random Search
-        </label>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center py-8 px-4">
+    <div class="w-full max-w-4xl bg-white rounded-xl shadow-lg overflow-hidden">
+        <!-- Header -->
+        <div class="bg-red-600 text-white p-6 text-center">
+            <h1 class="text-3xl font-bold">YouTube Player Word Randomizer</h1>
+            <p class="mt-2">Discover music at random based on words and genres!</p>
+        </div>
+
+        <!-- Controls -->
+        <div class="p-6 space-y-4">
+            <div class="flex justify-center">
+                <button onclick="openCORS()" class="px-4 py-2 bg-amber-500 hover:bg-amber-600 text-white rounded-lg flex items-center space-x-2 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
+                    </svg>
+                    <span>Enable CORS Proxy</span>
+                </button>
+            </div>
+
+            <!-- Search Inputs -->
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="space-y-2">
+                    <label class="flex items-center">
+                        <input type="checkbox" id="randomTitle" onchange="toggleInput('title', 'randomTitle')" class="rounded text-red-600 focus:ring-red-500">
+                        <span class="ml-2 font-medium">Use random title</span>
+                    </label>
+                    <input type="text" id="title" placeholder="Enter song title" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500">
+                </div>
+                <div class="space-y-2">
+                    <label class="flex items-center">
+                        <input type="checkbox" id="randomGenre" onchange="toggleInput('genre', 'randomGenre')" class="rounded text-red-600 focus:ring-red-500">
+                        <span class="ml-2 font-medium">Use random genre</span>
+                    </label>
+                    <input type="text" id="genre" placeholder="Enter genre" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500">
+                </div>
+            </div>
+
+            <!-- Search Options -->
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="space-y-2">
+                    <h3 class="font-medium text-gray-700">Search Type:</h3>
+                    <div class="flex space-x-4">
+                        <label class="inline-flex items-center">
+                            <input type="radio" name="searchType" value="Top Result" checked class="text-red-600 focus:ring-red-500">
+                            <span class="ml-2">Top Result</span>
+                        </label>
+                        <label class="inline-flex items-center">
+                            <input type="radio" name="searchType" value="Random Search" class="text-red-600 focus:ring-red-500">
+                            <span class="ml-2">Random Search</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="space-y-2">
+                    <h3 class="font-medium text-gray-700">Video Type:</h3>
+                    <div class="flex space-x-4">
+                        <label class="inline-flex items-center">
+                            <input type="radio" name="type" value="Official Audio" checked class="text-red-600 focus:ring-red-500">
+                            <span class="ml-2">Official Audio</span>
+                        </label>
+                        <label class="inline-flex items-center">
+                            <input type="radio" name="type" value="Music Video" class="text-red-600 focus:ring-red-500">
+                            <span class="ml-2">Music Video</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Search Button -->
+            <div class="pt-4">
+                <button onclick="searchSong()" class="w-full py-3 px-6 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
+                    Search Music
+                </button>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="p-6 space-y-8">
+            <!-- Video Embed Container -->
+            <div class="bg-gray-50 rounded-xl p-4">
+                <h2 class="text-xl font-semibold mb-4 text-gray-800">Video Player</h2>
+                <div id="loading" class="hidden flex items-center justify-center py-8">
+                    <div class="animate-pulse flex space-x-2">
+                        <div class="h-2 w-2 bg-red-600 rounded-full"></div>
+                        <div class="h-2 w-2 bg-red-600 rounded-full delay-100"></div>
+                        <div class="h-2 w-2 bg-red-600 rounded-full delay-200"></div>
+                    </div>
+                </div>
+                <div id="video-container" class="aspect-w-16 aspect-h-9 w-full">
+                    <!-- This is where the YouTube embed will appear -->
+                </div>
+            </div>
+
+            <!-- Video Info -->
+            <div id="result" class="bg-gray-50 rounded-xl p-4">
+                <h2 class="text-xl font-semibold mb-4 text-gray-800">Song Information</h2>
+                <div id="video-info" class="text-gray-700">
+                    <!-- Video info will appear here -->
+                </div>
+            </div>
+
+            <!-- Lyrics -->
+            <div class="bg-gray-50 rounded-xl p-4">
+                <h2 class="text-xl font-semibold mb-4 text-gray-800">Lyrics</h2>
+                <div id="lyrics-container" class="bg-white p-4 rounded-lg border border-gray-200 h-64 overflow-y-auto">
+                    <div id="lyrics" class="whitespace-pre-wrap font-serif text-gray-700"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Message -->
+        <div id="error-message" class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 hidden mx-6 mb-6">
+            <span id="error-text"></span>
+        </div>
     </div>
-    <div>
-        <label>
-            <input type="radio" name="type" value="Official Audio" checked> Official Audio
-        </label>
-        <label>
-            <input type="radio" name="type" value="Music Video"> Music Video
-        </label>
-    </div>
-    <button onclick="searchSong()">Search</button>
-    <div id="result" class="center"></div>
-    <div id="lyrics-container">
-        <div id="lyrics"></div>
-    </div>
-    <div id="error-message" style="color: red;"></div>
 
-    <script>
-        let retryCount = 0;
-        const maxRetries = 5;
-        const retryDelay = 5000; // 5 seconds
-
-        function openCORS() {
-            window.open('https://cors-anywhere.herokuapp.com/corsdemo', '_blank');
-        }
-
-        function toggleInput(inputId, checkboxId) {
-            const input = document.getElementById(inputId);
-            const checkbox = document.getElementById(checkboxId);
-            input.disabled = checkbox.checked;
-        }
-
-        async function fetchTextFile(url) {
-            const response = await fetch(url);
-            const text = await response.text();
-            return text.split('\n').map(line => line.trim()).filter(line => line.length > 0);
-        }
-
-        async function getRandomWord() {
-            const words = await fetchTextFile('words.txt');
-            return words[Math.floor(Math.random() * words.length)];
-        }
-
-        async function getRandomGenre() {
-            const genres = await fetchTextFile('genres.txt');
-            return genres[Math.floor(Math.random() * genres.length)];
-        }
-
-        async function fetchLyrics(artist, songTitle) {
-            const cleanTitle = songTitle.replace(/\(.*?\)/g, '').trim(); // Remove anything in parentheses
-            try {
-                const response = await fetch(`https://api.lyrics.ovh/v1/${encodeURIComponent(artist)}/${encodeURIComponent(cleanTitle)}`);
-                const data = await response.json();
-                if (data.lyrics) {
-                    return `<pre>${data.lyrics}</pre>`;
-                } else {
-                    throw new Error("No lyrics found");
-                }
-            } catch (error) {
-                console.error('Lyrics fetch error:', error);
-                return "Lyrics not found.";
-            }
-        }
-
-        async function searchSong() {
-            try {
-                const titleInput = document.getElementById('title');
-                const genreInput = document.getElementById('genre');
-                const useRandomTitle = document.getElementById('randomTitle').checked;
-                const useRandomGenre = document.getElementById('randomGenre').checked;
-                const searchType = document.querySelector('input[name="searchType"]:checked').value;
-                const type = document.querySelector('input[name="type"]:checked').value;
-
-                if (useRandomTitle) {
-                    titleInput.value = await getRandomWord();
-                }
-
-                if (useRandomGenre) {
-                    genreInput.value = await getRandomGenre();
-                }
-
-                const title = titleInput.value;
-                const genre = genreInput.value;
-
-                const searchQuery = `${title} ${genre} (${type})`;
-                const encodedSearchQuery = encodeURIComponent(searchQuery);
-                const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
-                const targetUrl = `https://www.youtube.com/results?search_query=${encodedSearchQuery}`;
-                const url = proxyUrl + targetUrl;
-
-                const response = await fetch(url);
-                if (!response.ok) {
-                    if (response.status === 429) {
-                        retryCount++;
-                        if (retryCount <= maxRetries) {
-                            console.log(`Rate limit exceeded. Retrying after delay... (${retryCount}/${maxRetries})`);
-                            document.getElementById('error-message').innerText = `Rate limit exceeded. Retrying after delay... (${retryCount}/${maxRetries})`;
-                            setTimeout(searchSong, retryDelay);
-                            return;
-                        } else {
-                            throw new Error(`Rate limit exceeded. Maximum retries reached (${maxRetries}).`);
-                        }
-                    } else {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                }
-                const text = await response.text();
-                const videoIdMatches = text.match(/"videoId":"(.*?)"/g) || [];
-                const titleMatches = text.match(/"title":{"runs":\[{"text":"(.*?)"}/g) || [];
-
-                if (videoIdMatches.length > 0) {
-                    let videoId, videoTitle;
-                    if (searchType === "Top Result") {
-                        videoId = videoIdMatches[0].match(/"videoId":"(.*?)"/)[1];
-                        videoTitle = titleMatches[0].match(/"title":{"runs":\[{"text":"(.*?)"}/)[1];
-                    } else {
-                        const randomIndex = Math.floor(Math.random() * videoIdMatches.length);
-                        videoId = videoIdMatches[randomIndex].match(/"videoId":"(.*?)"/)[1];
-                        const videoLink = `https://www.youtube.com/watch?v=${videoId}`;
-                        const videoCheckUrl = `https://www.youtube.com/oembed?url=${videoLink}&format=json`;
-                        const videoCheckResponse = await fetch(videoCheckUrl);
-
-                        if (videoCheckResponse.ok) {
-                            const videoData = await videoCheckResponse.json();
-                            videoTitle = videoData.title;
-                        } else {
-                            videoTitle = `Random Video ${randomIndex + 1}`;
-                        }
-                    }
-
-                    const videoLink = `https://www.youtube.com/watch?v=${videoId}`;
-                    const videoCheckUrl = `https://www.youtube.com/oembed?url=${videoLink}&format=json`;
-                    const videoCheckResponse = await fetch(videoCheckUrl);
-
-                    if (videoCheckResponse.ok) {
-                        const linkCode = `<div><a href="${videoLink}" target="_blank">${videoTitle}</a></div>`;
-                        document.getElementById('result').innerHTML = linkCode;
-
-                        // Extract artist and song title for lyrics fetching
-                        let artist = "";
-                        let songTitle = videoTitle;
-                        if (videoTitle.includes(" - ")) {
-                            const parts = videoTitle.split(" - ");
-                            if (parts.length === 2) {
-                                artist = parts[0].trim();
-                                songTitle = parts[1].trim();
-                            }
-                        }
-
-                        if (artist && songTitle) {
-                            const lyrics = await fetchLyrics(artist, songTitle);
-                            document.getElementById('lyrics').innerHTML = lyrics;
-                        } else {
-                            document.getElementById('lyrics').innerHTML = "Unable to fetch lyrics for this video.";
-                        }
-
-                        console.log('Retrieved Video:', videoTitle);
-                    } else {
-                        document.getElementById('result').innerHTML = "Video unavailable.";
-                    }
-                } else {
-                    document.getElementById('result').innerHTML = "No video found.";
-                }
-            } catch (error) {
-                console.error('An error occurred while searching for the song:', error);
-                document.getElementById('error-message').innerText = `An error occurred while searching for the song: ${error.message}`;
-            }
-        }
-
-        async function main() {
-            document.getElementById('search-song-button').addEventListener('click', searchSong);
-        }
-
-        main();
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
+
