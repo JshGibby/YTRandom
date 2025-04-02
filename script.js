@@ -1,6 +1,6 @@
-let retryCount = 2;
-const maxRetries = 3;
-const retryDelay = 10000; // 10 seconds
+let retryCount = 1;
+const maxRetries = 1;
+const retryDelay = 30000; // 30 seconds
 
 // Sample default data for when fetches fail
 const defaultGenres = ['pop', 'rock', 'jazz', 'electronic', 'hip hop', 'classical', 'country', 'folk', 'metal', 'indie', 'blues', 'r&b', 'reggae'];
