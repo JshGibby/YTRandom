@@ -57,9 +57,7 @@ Piedmont Blues
 Punk Blues
 Ragtime Blues
 Rhythm Blues
-Soul Blues
 St. Louis Blues
-Soul Blues
 Swamp Blues
 Texas Blues
 Urban Blues
@@ -139,7 +137,6 @@ Honky Tonk
 Franco-Country
 Gulf and Western
 Hillbilly Music
-Honky Tonk
 Instrumental Country
 Lubbock Sound
 Nashville Sound
@@ -184,7 +181,6 @@ Grime
 Hardcore
 Bouncy House
 Bouncy Techno
-Breakcore
 Digital Hardcore
 Doomcore
 Dubstyle
@@ -202,10 +198,8 @@ Horrorcore
 House
 Acid House
 Chicago House
-Deep House
 Diva House
 Dutch House
-Electro House
 Freestyle House
 French House
 Funky House
@@ -228,7 +222,6 @@ Jackin House
 Jungle / Drum’n’bass
 Liquid Dub
 Regstep
-Speedcore
 Techno
 Acid Techno
 Detroit Techno
@@ -246,7 +239,6 @@ Acid Trance
 Acid-House
 Classic Trance
 Dark Psy
-Deep House
 Dream Trance
 Goa Trance
 Dark Psytrance
@@ -257,7 +249,6 @@ Hard Trance
 Prog. Trance
 Psy-Trance
 Minimal Techno
-Tech House
 Tech Trance
 Uplifting Trance
 Orchestral Uplifting
@@ -271,7 +262,6 @@ Elevator
 Furniture
 Lounge
 Middle of the Road
-Swing
 Electronic
 2-Step (thx Ran’dom Haug)
 8bit – 8-bit, Bitpop and Chiptune
@@ -325,7 +315,6 @@ Crunk
 Electro Backbeat
 Electro-Grime
 Electropop
-Electro-swing
 Electroacoustic
 Acousmatic Music
 Computer Music
@@ -337,7 +326,6 @@ Soundscape Composition
 Tape Music
 Electronica
 Berlin School
-Chillwave
 Electronic Art Music
 Electronic Dance Music
 Folktronica
@@ -375,7 +363,6 @@ Hard Nrg
 New Beat
 IDM/Experimental
 Industrial
-Trip Hop
 Vaporwave
 Hyponagogic
 Vektroid
@@ -386,8 +373,6 @@ Protovapor
 UK Garage
 2-Step
 4×4
-Bassline
-Grime
 Speed Garage
 Enka
 French Pop
@@ -429,7 +414,6 @@ Freestyle Rap
 G-Funk
 Gangsta Rap
 Golden Age
-Grime
 Hardcore Rap
 Hip-Hop
 Hip Pop
@@ -445,7 +429,6 @@ Merenrap
 Midwest Hip Hop
 Chicago Hip Hop
 Detroit Hip Hop
-Horrorcore
 St. Louis Hip Hop
 Twin Cities Hip Hop
 Motswako
@@ -453,7 +436,6 @@ Nerdcore
 New Jack Swing
 New School Hip Hop
 Old School Rap
-Rap
 Trap
 Turntablism
 Underground Rap
@@ -501,7 +483,6 @@ Christian Rock
 Classic Christian
 Contemporary Gospel
 Gospel
-Christian & Gospel
 Praise & Worship
 Qawwali
 Southern Gospel
@@ -514,9 +495,7 @@ J-Synth
 J-Ska
 J-Punk
 Jazz
-Acid Jazz
 Afro-Cuban Jazz
-Avant-Garde Jazz
 Bebop
 Big Band
 Blue Note
@@ -540,10 +519,8 @@ Fusion
 Gypsy Jazz
 Hard Bop
 Indo Jazz
-Jazz Blues
 Jazz-Funk (see Free Funk)
 Jazz-Fusion
-Jazz Rap
 Jazz Rock
 Kansas City Jazz
 Latin Jazz
@@ -565,8 +542,6 @@ Swing Jazz
 Straight-Ahead Jazz
 Trad Jazz
 Third Stream
-Jazz-Funk
-Free Jazz
 West Coast Jazz
 K-Pop
 Karaoke
@@ -579,7 +554,6 @@ Baithak Gana
 Bolero
 Bossa Nova
 Brazilian
-Bossa Nova
 Brazilian Rock
 Contemporary Latin
 Cumbia
@@ -590,9 +564,7 @@ Mariachi
 Merengue Típico
 Pop Latino
 Reggaeton 
-Hip-Hop
 Mexicano
-Salsa 
 Tropical
 Soca
 Tejano
@@ -614,7 +586,6 @@ Glam Metal
 Hair Metal
 Doom Metal
 Groove Metal
-Industrial Metal
 Modern Metal
 Neoclassical Metal
 New Wave British Heavy Metal
@@ -641,7 +612,6 @@ Meditation
 Nature
 Relaxation
 Travel
-Opera
 Pop
 Adult Contemporary
 Arab Pop
@@ -650,16 +620,12 @@ Britpop
 Bubblegum Pop
 Chamber Pop
 Chanson
-Christian Pop
 Classical Crossover
 Europop
 Austropop
 Balkan Pop
-French Pop
-Latin Pop
 Laïkó
 Nederpop
-Russian Pop
 Dance Pop
 Dream Pop
 Electro Pop
@@ -667,7 +633,6 @@ Jangle Pop
 Latin Ballad
 Levenslied
 Louisiana Swamp Pop
-Mexican Pop
 Motorpop
 New Romanticism
 Orchestral Pop
@@ -683,7 +648,6 @@ Sophisti-Pop
 Space Age Pop
 Sunshine Pop
 Surf Pop
-Synthpop
 Teen Pop
 Traditional Pop Music
 Turkish Pop
@@ -691,12 +655,9 @@ Vispop
 Wonky Pop
 Post-Disco
 Boogie
-Dance-pop
 Progressive
 Progressive House / Trance
 Disco House
-Dream House
-Space House
 Japanese House
 Bounce Scouse House
 Progressive Breaks
@@ -715,11 +676,8 @@ Northern Soul
 Psychedelic Soul
 Quiet Storm
 Soul
-Soul Blues
 Southern Soul
 Reggae
-2-Tone
-Dub
 Roots Reggae
 Reggae Fusion
 Reggae en Español
@@ -731,33 +689,22 @@ Lovers Rock
 Raggamuffin
 Ragga
 Dancehall
-2 Tone
-Dub
 Rocksteady
 Reggae Dancehall
 Rock
 Acid Rock
 Afro Punk
-Alternative Rock
 American Traditional Rock
 Anatolian Rock
 Arena Rock
 Art Rock
 Blues-Rock
 British Invasion
-Doom Metal
 Glam Rock
-Gothic Metal
-Grind Core
-Hard Rock
-Math Metal
-Math Rock
-Noise Rock
 Jam Bands
 Post Punk
 Post Rock
 Prog-Rock
-Art Rock
 Progressive Metal
 Psychedelic
 Rock & Roll
@@ -770,27 +717,19 @@ Stoner Metal
 Surfing music
 Technical Death Metal
 Tex-Mex
-Thrash Metal
 Time Lord Rock
-Trip-hop
 Yacht Rock 
-Soft rock
 Alternative Folk
-Contemporary Folk
 Contemporary Singer/Songwriter
-Indie Folk
 Folk-Rock
 Love Song
 New Acoustic
-Traditional Folk
 Soundtrack
 Movie Soundtrack
 Musical
 Original Score
-Soundtrack
 TV Soundtrack
 Spoken Word
-Tex-Mex
 Tejano
 Chicano
 Classic Music
@@ -801,9 +740,7 @@ A cappella
 Barbershop
 Cantique
 Sacred Vocal
-Doo-wop
 Gregorian Chant
-Traditional Pop
 Vocal Jazz
 Vocal Pop
 Yodelling
@@ -824,7 +761,6 @@ Chimurenga
 Fuji Music
 Genge
 Gnawa 
-hypnotic trance
 Highlife Benre
 Hiplife Genre
 Negro Spiritual
@@ -836,10 +772,6 @@ CityPop
 Cantopop
 Hong Kong English Pop
 Fijiri
-J-Pop
-Japanese Pop
-K-Pop
-Korean Pop
 Mandopop
 Taiwanese Pop
 T-Pop
@@ -848,8 +780,6 @@ Cajun Genre
 Calypso
 Caribbean
 Celtic
-Celtic Folk
-Contemporary Celtic
 Drinking Songs
 Hawaiian
 Arabic
@@ -858,7 +788,6 @@ Polka
 Indian Pop
 Hindustani
 Manila Sound
-Pinoy Pop
 Pop Sunda
 Worldbeat
 Indian classical music
@@ -870,7 +799,6 @@ Western classical music
 Early music
 Medieval music
 Renaissance music
-Baroque music
 Galant music
 Classical period
 Romantic music
@@ -884,53 +812,28 @@ Contemporary classical music
 Minimal music
 Popular music
 Danger music
-Drone music
-Industrial music
 Musical improvisation
-Musique concrète
 Outsider music
 Progressive music
 Psychedelic music
 Underground music
-Blues
-African blues
-Blues rock
-British blues
-Canadian blues
-Chicago blues
-Classic female blues
-Country blues
-Delta blues
-Desert blues
-WW1 Music
-WW2 Music
-Patriotic
 Detroit blues
-Electric blues
 Gospel blues
 Hill country blues
 Jump blues
 Kansas City blues
-Louisiana blues
 Memphis blues
 New Orleans blues
 Piedmont blues
-Punk blues
 Rhythm and blues
-Soul blues
-St. Louis blues
-Swamp blues
 Talking blues
-Texas blues
 West Coast blues
 Alternative country
 Cowpunk
 Country-punk
 Gothic country
-Roots rock
 Australian country
 Bush band
-Bakersfield sound
 Old-time bluegrass
 Appalachian bluegrass
 Traditional bluegrass
@@ -943,22 +846,16 @@ Bro-country
 Cajun fiddle
 Canadian country
 Franco-country
-Christian country
-Classic country
 Country en Español
 Country folk
-Country pop/Cosmopolitan country
 Country rap/Hick-hop
 Country rock
 Cowboy pop
-Honky tonk
 Instrumental country
 Nashville sound
 Countrypolitan
-Neotraditional country
 New country
 Old-time
-Outlaw country
 Pop country
 Progressive country
 Regional Mexican
@@ -968,29 +865,20 @@ Psychobilly
 Punkabilly
 Gothabilly
 Hellbilly
-Southern rock
 Southern soul
-Traditional country
 Truck-driving country
 Western
 cowboy music
 New Mexico music
 Red dirt
 Texas country
-Western swing
 Easy listening
-Background music
-Elevator music
 Barococo
 Beautiful music
 Chill-out
-Furniture music
 Light music
-Lounge music
 New-age music
-Soft rock
 Ambient dub
-Dark ambient
 Ambient industrial
 Dungeon synth
 Dreampunk
@@ -1003,15 +891,10 @@ Future bass
 Kawaii future bass
 Jungle terror
 Midtempo bass
-Trap
 UK bass
 Wave
 Hardwave
 Breakbeat
-Acid breaks
-club music
-Breakbeat hardcore
-Hardcore breaks
 Broken beat
 Florida breaks
 Nu skool breaks
@@ -1019,11 +902,9 @@ Progressive breaks
 Psychedelic breakbeat
 Psybient
 Psydub
-Trip hop
 Trip rock
 Cosmic music
 Electro-disco
-Hi-NRG
 Italo dance
 Italo disco
 Spacesynth
@@ -1031,7 +912,6 @@ Space disco
 Eurodisco
 Nu-disco
 Post-disco
-City pop
 Drum and bass
 Intelligent drum and bass
 Atmospheric drum and bass
@@ -1041,7 +921,6 @@ Jump-up
 Liquid funk
 Dub poetry
 Electronic rock
-Dance-rock
 Alternative dance
 New rave
 Dance-punk
@@ -1051,20 +930,14 @@ Disco polo
 Hyperpop
 Sophisti-pop
 Synth-pop
-Wonky pop
 Krautrock
 New wave
-Cold wave
-Dark wave
 Neoclassical dark wave
 Ethereal wave
 Nu-gaze
 Minimal wave
 Neue Deutsche Welle
 New romantic
-Post-rock
-Space rock
-Cold War Music
 Synth-metal
 Synth-punk
 Nu jazz (Jazztronica)
@@ -1088,23 +961,19 @@ Electroacoustic improvisation
 Soundscape
 Microsound
 Noise music
-Death industrial
 Power noise
 Plunderphonics
 Sampledelia
 Reductionism
 Funk fusion genres
-Acid jazz
 Funktronica
 Synth-funk
 Jungle
-Ragga jungle
 Hard dance
 Euphoric frenchcore
 Euphoric hardstyle
 Trapstyle
 Bouncy techno
-Digital hardcore
 Frenchcore
 Early hardcore
 Mainstream hardcore
@@ -1124,7 +993,6 @@ Future funk
 Hardvapour
 Hip hop fusion genres
 Afroswing
-Alternative hip hop
 Hipster hop
 Cloud rap
 Snap music
@@ -1145,7 +1013,6 @@ Brazilian phonk
 Plugg
 UK trap
 House music
-Acid house
 Afro house
 Afro tech
 Ambient house
@@ -1156,20 +1023,13 @@ Brazilian bass
 Slap house
 Blog house
 Chicago hard house
-Chicago house
-Deep house
 Disco house [fr]
 Diva house
-Electro house
 Big room house
 Future rave
 Complextro
-Dutch house
 Fidget house
 Melbourne bounce
-Electro swing
-Eurohouse
-French house
 Funky house
 Future house
 Garage house
@@ -1177,7 +1037,6 @@ Ghetto house
 Juke house
 Hip house
 Electro hop
-Italo house
 Jazz house
 Latin house
 Melodic house
@@ -1187,12 +1046,9 @@ Moombahsoul
 New Jersey sound
 Outsider house
 Lo-fi house
-Progressive house
 Soulful house
 Stadium house
-Tech house
 Tribal house
-Tropical house
 UK hard house
 Hardbass
 Industrial and post-industrial
@@ -1201,9 +1057,7 @@ Dark electro
 Electronic body music (EBM)
 New beat
 Industrial hip hop
-Industrial metal
 Cyber metal
-Industrial rock
 Martial industrial
 Witch house
 Intelligent dance music
@@ -1211,41 +1065,25 @@ Algorave
 Drill 'n' bass
 R&B and soul fusion genres
 Alternative R&B
-Neo soul
-New jack swing
-Acid techno
-Ambient techno
-Birmingham sound
-Bleep techno
-Detroit techno
-Dub techno
-Hard techno [fr]
-Free tekno
-Jungletek
-Raggatek
+R&B and soul fusion genres
+Industrial rock
 Industrial techno
-Minimal techno
-Toytown techno
 Trance music
 Acid trance
 Dream trance
 Eurotrance
-Hard trance
 Progressive trance
 Psychedelic trance
 Dark psytrance
 Minimal psytrance
 Progressive psytrance
 Tech trance
-Uplifting trance
-Vocal trance
 UK garage
 2-step garage
 Breakstep
 Post-dubstep
 Reggaestep
 Future garage
-Speed garage
 UK funky
 Funkstep
 Wonky
@@ -1262,17 +1100,8 @@ Corrido
 Creole music
 Filk
 Folk noir
-Folk rock
 Celtic rock
-Freak folk
-Indie folk
-Industrial folk
 New Weird America
-Progressive folk
-Protest song
-Psychedelic folk
-Singer-songwriter
-Skiffle
 Sung poetry
 Traditional blues verses
 Hip hop
@@ -1280,35 +1109,22 @@ Experimental hip hop
 Boom bap
 British hip hop
 Road rap
-Christian hip hop
 Comedy hip hop
 East Coast hip hop
-Freestyle rap
 Frat rap
-G-funk
-Hardcore hip hop
 Dirty rap
-Gangsta rap
 Mafioso rap
 Memphis rap
 Latin hip hop
 Chicano rap
-Chap hop
 Political hip hop
-Conscious hip hop
 Progressive rap
 Religious hip hop
 Jewish hip hop
 Southern hip hop
-Trap music
-Drill music
 Rage music
 Tread rap
-Underground hip hop
-West Coast hip hop
-Country rap
 Hip hop soul
-Jazz rap
 Pop rap
 Punk rap
 Rap opera
@@ -1318,48 +1134,33 @@ Trap metal
 Rapcore
 Afro-Cuban jazz
 Alt-jazz
-Avant-garde jazz
 Big band
 Boogie-woogie
-Bossa nova
 Brazilian jazz
 British dance band
 Cape jazz
 Chamber jazz
 Continental jazz
-Cool jazz
-Crossover jazz
 Ethno jazz
 European free jazz
 Free fun
 Free improvisation
-Free jazz
 Gypsy jazz
-Hard bop
 Jazz blues
-Jazz-funk
 Jazz fusion
-Jazz rock
 Jazztronica
-Kansas City jazz
-Latin jazz
 M-base
-Electro-swing
 Mainstream jazz
 Modal jazz
 Neo-swing
-Nu jazz
 Orchestral jazz
 Post-bop
 Progressive jazz
-Punk jazz
 Samba-jazz
 Smooth jazz
-Soul jazz
 Stride jazz
 Trad jazz
 Vocal jazz
-West Coast jazz
 Alternative pop
 Ambient pop
 Arabic pop music
@@ -1367,63 +1168,39 @@ Art pop
 Avant-pop
 Baroque pop
 Beach music
-Bubblegum pop
 Canción
 Canzone
-Chamber pop
 Christian pop
 Classic hits
-Classical crossover
 Contemporary hit radio
-Country pop
 Cringe pop
 Dark pop
-French pop
-Neomelodic music
 Nordic popular music
-Russian pop
 Folk pop
-Indie pop
 Twee pop
-Indian pop
 Iranian pop
-J-pop
 Anime song
-Jangle pop
 Jazz pop
-K-pop
 Korean hip hop
 Korean rock
 T'ong guitar
 Latin ballad
-Latin pop
-Mexican pop
 New pop
-New Romantic
-Oldies
 Operatic pop
 Pinoy pop
 Pop rock
-Pop punk
 Emo pop
 Neon pop
 Power pop
 Surf pop
-Yacht rock
 Pop soul
 Progressive pop
-Psychedelic pop
 Rebetiko
 Rhythmic adult contemporary
 Rhythmic contemporary
 Rhythmic oldies
-Space age pop
-Sunshine pop
 Swamp pop
-Teen pop
-Traditional pop
 Turbo-folk
-Turkish pop
 Urban contemporary music
 R&B & soul
 Main article: Rhythm and blues
@@ -1431,28 +1208,21 @@ Deep funk
 Minneapolis Sound
 Psychedelic funk
 Gospel music
-Southern gospel
 Urban contemporary gospel
 Cinematic soul
 Classic soul
-Northern soul
 Progressive soul
-Psychedelic soul
-Quiet storm
 Main article: Rock music
 See also: List of rock genres
 Active rock
 Adult album alternative
 Afro rock
 Album oriented rock
-Alternative rock
 Post-Britpop
-College rock
 Dream pop
 Blackgaze
 Post-grunge
 Soft grunge
-Indie rock
 Math rock
 Midwest emo
 Post-punk revival
@@ -1460,22 +1230,16 @@ Slacker rock
 Noise pop
 Sadcore
 Slowcore
-American rock
 Anatolian rock
 Arabic rock
-Arena rock
 Beat
 Freakbeat
 Nederbeat
 Boogie rock
-Brazilian rock
 Samba rock
 British rhythm and blues
-British rock music
 Chinese rock
-Christian rock
 Classic alternative
-Classic rock
 Comedy rock
 Dark cabaret
 Death 'n' roll
@@ -1483,59 +1247,38 @@ Deathrock
 Desert rock
 Emo
 Bardcore
-Experimental rock
 Art rock
-Post-punk
 Gothic rock
-Noise rock
 Post-metal
 British folk rock
 Medieval folk rock
-Funk rock
-Garage rock
-Proto-punk
 Geek rock
-Glam rock
 Pagan rock
-Hard rock
-Heartland rock
-Heavy metal
 Indian rock
 Iranian rock
-Instrumental rock
 Japanese rock
-Latin rock
 Rock en español
 Rock music in Mexico
-Mainstream rock
 Mangue bit
-Modern rock
 New wave of classic rock
 Occult rock
-Progressive rock
 Rock in Opposition
 Canterbury scene
 Flamenco rock
 New prog
 Post-progressive
-Progressive rock (radio format)
-Proto-prog
 Symphonic Rock
-Psychedelic rock
 Acid rock
 Freak scene
 Neo-psychedelia
 Pub rock
-Punk rock
 Reggae rock
 Rock and roll
 Gothabilly
 Hellbilly
-Psychobilly
 Rock music in France
 Rock opera
 Stoner rock
-Swamp rock
 Sufi rock
 Surf rock
 Tropical rock
@@ -1543,60 +1286,41 @@ Viking rock
 Wizard rock
 World fusion
 Funk metal
-Nu metal
 Avant-garde metal
 Drone metal
-Black metal
 Depressive suicidal black metal
 Blackened death metal
 Atmospheric black metal
 Melodic black metal
 Symphonic black metal
-Viking metal
 Christian metal
 Unblack metal
-Death metal
 Deathgrind
 Melodic death metal
 Technical death metal
 Brutal death metal
 Slam death metal
-Doom metal
 Death-doom
 Stoner-doom
-Extreme metal
 Folk metal
 Celtic metal
 Medieval metal
-Pagan metal
-Glam metal
-Gothic metal
 Kawaii metal
 Latin metal
 Math metal
 Melodic metalcore
 Progressive metalcore
 Neoclassical metal
-Pirate metal
 Pop metal
-Power metal
-Progressive metal
-Sludge metal
-Speed metal
-Symphonic metal
-Thrash metal
 Crossover thrash
-Groove metal
 Afro-punk
 Anarcho punk
 Crust punk
 D-beat
-Art punk
 Avant punk
 Christian punk
 Cyberpunk
 Synth punk
-Folk punk
 Celtic punk
 Gypsy punk
 Scottish Gaelic punk
@@ -1607,23 +1331,17 @@ Gothic punk
 Crustgrind
 Goregrind
 Noisegrind
-Hardcore punk
 Bardcore
 Beatdown hardcore
 Christian hardcore
 Crabcore
 Krishnacore
-Melodic hardcore
 Positive hardcore
-Post-hardcore
 Taqwacore
 Screamo
 Powerviolence
-Street punk
-Horror punk
 Latino punk
 Easycore
-Punkabilly
 Reggae punk
 Riot girl
 Ska punk
@@ -1631,49 +1349,25 @@ Skate punk
 Surf punk
 Trallpunk
 Regional
-African heavy metal
-African hip hop
 African popular music
-Afro pop
-Afrobeat
-Apala
-Arabesque
-Bongo flava
 Bubu music
 Chaabi
 Chaoui music
 Congolese rumba
-Fuji music
-Gnawa
 Owerri Bongo
 Ojapiano
-Palm-wine
 Rumba
 Zamrock
 Mongolian folk music
 Mongolian Throat Singing
 Tuvan throat singing
 Tajik folk music
-Chinese:
-Chinese hip hop
 Chinese folk music
-Hong Kong English pop
-Hong Kong hip hop
 Taiwanese hip hop
-Taiwanese pop
 Taiwanese rock
-Japanese hip hop
-Japanese jazz
-Korean folk music
-Indian classical
-Carnatic
-Hindustani classical
 Indian jazz
 Sri Lankan hip hop
 Southeast Asian
-Malaysian hip hop
-Malaysian pop
-Malaysian rock
 Thai string pop
 Filipino:
 Original Pilipino
@@ -1703,7 +1397,6 @@ Music of Polynesia
 Music of Samoa
 European
 Balkan States
-Balkan music
 Balkan brass
 Balkan folk music
 Romani music
@@ -1719,26 +1412,19 @@ Mozambique
 Pichakaree
 Punta rock
 Rasin
-Lovers rock
 Reggae fusion
 Ragga jungle
-Reggaeton
 Alternative reggaeton
 Roots reggae
 Salsa
-Two-tone
 Power soca
 Son cubano
 Songo
 Hispanic
-Boogaloo
 Bullerengue
-Flamenco
-Tango
 Hispanic rhythmic
 Latin Christian
 Latin alternative
-Rock en Español
 Banda
 Norteño
 Tropical
@@ -1788,11 +1474,8 @@ alphorn
 alt z
 alte
 alternative americana
-alternative country
-alternative hip hop
 alternative metal
 alternative r&b
-alternative rock
 ambient folk
 american oi
 americana
@@ -1910,7 +1593,6 @@ classic afrobeat
 classic bollywood
 classic girl group
 classic opm
-classic rock
 classic soul
 classic soundtrack
 classic texas country
@@ -2253,7 +1935,6 @@ new orleans blues
 new romantic
 new tribe
 new wave
-new wave pop
 ngoni
 nisiotika
 norske viser
@@ -2290,7 +1971,7 @@ pianissimo
 piano cover
 pibroch
 piedmont blues
-pinoy hip hop
+pinny hip hop
 pinoy traditional
 poezja spiewana
 polca paraguaya
