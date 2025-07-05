@@ -850,12 +850,10 @@ Caribbean
 Celtic
 Celtic Folk
 Contemporary Celtic
-Dangdut
 Drinking Songs
 Hawaiian
-Japan
 Arabic
-North America
+North Americann
 Polka
 Indian Pop
 Hindustani
@@ -863,37 +861,28 @@ Manila Sound
 Pinoy Pop
 Pop Sunda
 Worldbeat
-Zydeco
-Andalusian classical music
 Indian classical music
 Korean court music
 Persian classical music
-Ottoman music (Turkish classical music)
+Ottoman music 
+Turkish classical music
 Western classical music
 Early music
 Medieval music
-Ars antiqua
-Ars nova
-Ars subtilior
 Renaissance music
 Baroque music
 Galant music
 Classical period
 Romantic music
-20th and 21st-centuries classical music
+Old Classical music
 Modernism
-Impressionism
 Neoclassicism
 High modernism
 Postmodern music
 Experimental music
 Contemporary classical music
 Minimal music
-Popular
-Main article: Popular music
-Avant-garde & experimental
-Main articles: Avant-garde music and experimental music
-Crossover music
+Popular music
 Danger music
 Drone music
 Industrial music
@@ -903,7 +892,7 @@ Outsider music
 Progressive music
 Psychedelic music
 Underground music
-Main article: Blues
+Blues
 African blues
 Blues rock
 British blues
@@ -913,11 +902,13 @@ Classic female blues
 Country blues
 Delta blues
 Desert blues
+WW1 Music
+WW2 Music
+Patriotic
 Detroit blues
 Electric blues
 Gospel blues
 Hill country blues
-Hokum blues
 Jump blues
 Kansas City blues
 Louisiana blues
@@ -932,18 +923,20 @@ Swamp blues
 Talking blues
 Texas blues
 West Coast blues
-Main article: Country music
-See also: List of country genres
 Alternative country
-Cowpunk/Country-punk
+Cowpunk
+Country-punk
 Gothic country
 Roots rock
 Australian country
 Bush band
 Bakersfield sound
-Old-time bluegrass/Appalachian bluegrass
-Traditional bluegrass/Neo-traditional bluegrass
-Progressive bluegrass/Nu-grass
+Old-time bluegrass
+Appalachian bluegrass
+Traditional bluegrass
+Neo-traditional bluegrass
+Progressive bluegrass
+Nu-grass
 Bluegrass gospel
 Blue Yodeling
 Bro-country
@@ -952,17 +945,14 @@ Canadian country
 Franco-country
 Christian country
 Classic country
-Country and Irish
 Country en Español
 Country folk
 Country pop/Cosmopolitan country
 Country rap/Hick-hop
 Country rock
 Cowboy pop
-Hokum
 Honky tonk
 Instrumental country
-Lubbock sound
 Nashville sound
 Countrypolitan
 Neotraditional country
@@ -972,41 +962,36 @@ Outlaw country
 Pop country
 Progressive country
 Regional Mexican
-Rockabilly/Neo-Rockabilly
-Psychobilly/Punkabilly
-Gothabilly/Hellbilly
+Rockabilly
+Neo-Rockabilly
+Psychobilly
+Punkabilly
+Gothabilly
+Hellbilly
 Southern rock
 Southern soul
 Traditional country
 Truck-driving country
-Western/cowboy music
+Western
+cowboy music
 New Mexico music
 Red dirt
-Tejano/Tex-Mex
 Texas country
 Western swing
 Easy listening
-Main article: Easy listening
-Adult contemporary music
-Adult standards
 Background music
-Elevator music (muzak)
+Elevator music
 Barococo
 Beautiful music
 Chill-out
 Furniture music
 Light music
 Lounge music
-Middle of the road
 New-age music
 Soft rock
-Main article: Electronic music
-See also: List of electronic music genres
-Styles of house music
-and List of trance genres
 Ambient dub
 Dark ambient
-Ambient industrial [pl]
+Ambient industrial
 Dungeon synth
 Dreampunk
 New-age
@@ -1016,30 +1001,27 @@ Bass music
 Footwork
 Future bass
 Kawaii future bass
-Jungle terror [de]
+Jungle terror
 Midtempo bass
-Trap (EDM)
+Trap
 UK bass
 Wave
 Hardwave
 Breakbeat
 Acid breaks
-Baltimore club
-Jersey club
-Philly club
-Big beat
+club music
 Breakbeat hardcore
-Hardcore breaks [sk]
+Hardcore breaks
 Broken beat
 Florida breaks
 Nu skool breaks
 Progressive breaks
-Psychedelic breakbeat [es]
+Psychedelic breakbeat
 Psybient
 Psydub
 Trip hop
-Trip rock [es]
-Afro/cosmic music
+Trip rock
+Cosmic music
 Electro-disco
 Hi-NRG
 Italo dance
@@ -1052,15 +1034,15 @@ Post-disco
 City pop
 Drum and bass
 Intelligent drum and bass
-Atmospheric drum and bass [pl]
-Jazzstep [fr]
+Atmospheric drum and bass
+Jazzstep
+Cinematic Music
 Jump-up
 Liquid funk
 Dub poetry
 Electronic rock
 Dance-rock
 Alternative dance
-Baggy (Madchester)
 New rave
 Dance-punk
 Electronic pop
@@ -1075,7 +1057,6 @@ New wave
 Cold wave
 Dark wave
 Neoclassical dark wave
-Neue Deutsche Todeskunst
 Ethereal wave
 Nu-gaze
 Minimal wave
@@ -1083,51 +1064,30 @@ Neue Deutsche Welle
 New romantic
 Post-rock
 Space rock
+Cold War Music
 Synth-metal
-Electrogrind
 Synth-punk
-Live electronic (Livetronica)
 Nu jazz (Jazztronica)
 Progressive electronic
-Berlin School [fr]
 Kosmische musik
-Ethnic electronica and regional EDM
 African electronic dance music
 Afrobeats
-Azonto
-Coupé-décalé
-Mahraganat
 Shangaan electro
-Budots
-Changa tuki
 Dancehall pop
 Denpa music
-Guaracha (EDM)
-Funk carioca
+Guaracha
 Funk melody
-Funk ostentação
-Proibidão
-Rasteirinha
-Merenhouse
-Rabòday
-Rara tech
 Russ music
 Shamstep
-Tecnocumbia
-Tribal guarachero
-Manila sound
-Experimental electronic
 Black MIDI
 Deconstructed club
+Remastered Music
 Electroacoustic music
 Acousmatic music
 Electroacoustic improvisation
 Soundscape
 Microsound
 Noise music
-Harsh noise [fr]
-Harsh noise wall
-Power electronics
 Death industrial
 Power noise
 Plunderphonics
@@ -1138,23 +1098,19 @@ Acid jazz
 Funktronica
 Synth-funk
 Jungle
-Ragga jungle [es]
+Ragga jungle
 Hard dance
-Hard NRG
-Euphoric frenchcore[broken anchor]
+Euphoric frenchcore
 Euphoric hardstyle
-Rawstyle[broken anchor]
 Trapstyle
-Lento violento
-Mákina
 Bouncy techno
 Digital hardcore
 Frenchcore
-Early hardcore [fr]
+Early hardcore
 Mainstream hardcore
 Happy hardcore
 UK hardcore
-Industrial hardcore [fr]
+Industrial hardcore
 J-core
 Extratone
 Flashcore
@@ -1162,7 +1118,7 @@ Splittercore
 Hauntology
 Hypnagogic pop
 Synthwave
-Darksynth [ru]
+Darksynth
 Sovietwave
 Future funk
 Hardvapour
@@ -1173,12 +1129,12 @@ Hipster hop
 Cloud rap
 Snap music
 Emo rap
-Glitch hop [es]
+Glitch hop
 Instrumental hip hop
 Lofi hip hop
 Miami bass
 Mumble rap
-Afro trap [fr]
+Afro trap
 Drill
 Brooklyn drill
 UK drill
@@ -1192,8 +1148,6 @@ House music
 Acid house
 Afro house
 Afro tech
-Amapiano
-Kidandali
 Ambient house
 Balearic beat
 Ballroom
@@ -1212,26 +1166,24 @@ Future rave
 Complextro
 Dutch house
 Fidget house
-Melbourne bounce [fr]
+Melbourne bounce
 Electro swing
-Eurohouse [es]
+Eurohouse
 French house
 Funky house
 Future house
 Garage house
 Ghetto house
 Juke house
-Gqom
 Hip house
 Electro hop
 Italo house
-Jackin house
 Jazz house
 Latin house
 Melodic house
 Microhouse
 Moombahcore
-Moombahsoul [es]
+Moombahsoul
 New Jersey sound
 Outsider house
 Lo-fi house
@@ -1241,11 +1193,8 @@ Stadium house
 Tech house
 Tribal house
 Tropical house
-Trouse
 UK hard house
-Pumping house
 Hardbass
-Scouse house
 Industrial and post-industrial
 Electro-industrial
 Dark electro
@@ -1257,7 +1206,7 @@ Cyber metal
 Industrial rock
 Martial industrial
 Witch house
-Intelligent dance music (IDM)
+Intelligent dance music
 Algorave
 Drill 'n' bass
 R&B and soul fusion genres
@@ -1276,22 +1225,16 @@ Jungletek
 Raggatek
 Industrial techno
 Minimal techno
-Schaffel
 Toytown techno
 Trance music
 Acid trance
-Balearic trance
 Dream trance
-Eurotrance [es]
-Hands up
-Goa trance
-Nitzhonot
+Eurotrance
 Hard trance
-Progressive trance [it]
+Progressive trance
 Psychedelic trance
 Dark psytrance
-Full-on
-Minimal psytrance [ru]
+Minimal psytrance
 Progressive psytrance
 Tech trance
 Uplifting trance
