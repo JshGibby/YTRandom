@@ -1,5 +1,3 @@
-Remove all words and things from this list that are inappropriate, drugs, violence, gross, weird, strange, sexualized, illegal, rude, crimes, hatred, racist, human names, demeaning, not common English words, words that can be used as personal names, cities names, swear words, NSFW, and too simple words like those that match with 'and, this, it, that, the, is, but, to', Completely sanitize this word list by Google. Leave nothing that. Think deep on this process. "aardvark
-aaron
 aback
 abacus
 abalone
@@ -11374,8 +11372,6 @@ teamwork
 teapot
 tear
 tears
-tease
-teased
 teaspoon
 technical
 technically
