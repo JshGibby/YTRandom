@@ -1301,9 +1301,7 @@ UK garage
 Breakstep
 Post-dubstep
 Reggaestep
-Riddim
 Future garage
-Grindie
 Speed garage
 UK funky
 Funkstep
@@ -1312,9 +1310,7 @@ Video game music
 FM synthesis
 Sequencer music
 Folk
-Main articles: Folk music and Contemporary folk
 American folk revival
-Anti-folk
 British folk revival
 Cajun music
 Celtic music
@@ -1333,20 +1329,14 @@ Progressive folk
 Protest song
 Psychedelic folk
 Singer-songwriter
-Nueva canción
 Skiffle
 Sung poetry
-Tarantella/Pizzica
 Traditional blues verses
 Hip hop
-Main article: Hip hop music
-See also: List of hip hop genres
 Experimental hip hop
 Boom bap
 British hip hop
 Road rap
-Chopped and screwed
-Chopper
 Christian hip hop
 Comedy hip hop
 East Coast hip hop
@@ -1358,7 +1348,6 @@ Dirty rap
 Gangsta rap
 Mafioso rap
 Memphis rap
-Jerkin'
 Latin hip hop
 Chicano rap
 Chap hop
@@ -1370,8 +1359,7 @@ Jewish hip hop
 Southern hip hop
 Trap music
 Drill music
-Pluggnb
-Rage
+Rage music
 Tread rap
 Underground hip hop
 West Coast hip hop
@@ -1380,14 +1368,11 @@ Hip hop soul
 Jazz rap
 Pop rap
 Punk rap
-Ragga hip hop
 Rap opera
 Rap rock
 Rap metal
 Trap metal
 Rapcore
-Main article: Jazz
-See also: List of jazz genres
 Afro-Cuban jazz
 Alt-jazz
 Avant-garde jazz
@@ -1403,7 +1388,7 @@ Cool jazz
 Crossover jazz
 Ethno jazz
 European free jazz
-Free funk
+Free fun
 Free improvisation
 Free jazz
 Gypsy jazz
@@ -1415,11 +1400,10 @@ Jazz rock
 Jazztronica
 Kansas City jazz
 Latin jazz
-Livetronica
 M-base
+Electro-swing
 Mainstream jazz
 Modal jazz
-Neo-bop jazz
 Neo-swing
 Nu jazz
 Orchestral jazz
@@ -1427,20 +1411,12 @@ Post-bop
 Progressive jazz
 Punk jazz
 Samba-jazz
-Shibuya-kei
-Ska jazz
 Smooth jazz
 Soul jazz
-Straight-ahead jazz
 Stride jazz
 Trad jazz
-Third stream
 Vocal jazz
 West Coast jazz
-Main article: Pop music
-See also: Styles of pop music
-Adult contemporary
-Adult hits
 Alternative pop
 Ambient pop
 Arabic pop music
@@ -1448,11 +1424,7 @@ Art pop
 Avant-pop
 Baroque pop
 Beach music
-Bedroom pop
-Brill building
 Bubblegum pop
-C-pop
-Hokkien pop
 Canción
 Canzone
 Chamber pop
@@ -1467,7 +1439,6 @@ French pop
 Neomelodic music
 Nordic popular music
 Russian pop
-Fado
 Folk pop
 Indie pop
 Twee pop
@@ -1481,7 +1452,6 @@ K-pop
 Korean hip hop
 Korean rock
 T'ong guitar
-Trot
 Latin ballad
 Latin pop
 Mexican pop
@@ -1489,7 +1459,6 @@ New pop
 New Romantic
 Oldies
 Operatic pop
-OPM
 Pinoy pop
 Pop rock
 Pop punk
@@ -1512,20 +1481,15 @@ Teen pop
 Traditional pop
 Turbo-folk
 Turkish pop
-Urban adult contemporary
 Urban contemporary music
-Yé-yé
 R&B & soul
 Main article: Rhythm and blues
-Go-go
 Deep funk
 Minneapolis Sound
 Psychedelic funk
 Gospel music
 Southern gospel
 Urban contemporary gospel
-Blue-eyed soul
-Brown-eyed soul
 Cinematic soul
 Classic soul
 Northern soul
@@ -1536,7 +1500,6 @@ Main article: Rock music
 See also: List of rock genres
 Active rock
 Adult album alternative
-Adult-oriented rock
 Afro rock
 Album oriented rock
 Alternative rock
@@ -1547,8 +1510,6 @@ Blackgaze
 Post-grunge
 Soft grunge
 Indie rock
-Dunedin sound
-Kindie rock
 Math rock
 Midwest emo
 Post-punk revival
@@ -1562,7 +1523,6 @@ Arabic rock
 Arena rock
 Beat
 Freakbeat
-Mod (subculture)
 Nederbeat
 Boogie rock
 Brazilian rock
@@ -1579,11 +1539,11 @@ Death 'n' roll
 Deathrock
 Desert rock
 Emo
+Bardcore
 Experimental rock
 Art rock
 Post-punk
 Gothic rock
-No wave
 Noise rock
 Post-metal
 British folk rock
@@ -1602,7 +1562,6 @@ Iranian rock
 Instrumental rock
 Japanese rock
 Latin rock
-Chicano rock
 Rock en español
 Rock music in Mexico
 Mainstream rock
@@ -1610,26 +1569,20 @@ Mangue bit
 Modern rock
 New wave of classic rock
 Occult rock
-Paisley Underground
 Progressive rock
-Avant-prog
 Rock in Opposition
 Canterbury scene
 Flamenco rock
-Neo-prog
 New prog
 Post-progressive
 Progressive rock (radio format)
 Proto-prog
 Symphonic Rock
-Zeuhl
 Psychedelic rock
 Acid rock
 Freak scene
 Neo-psychedelia
-Raga rock
-Pub rock (Australia)
-Pub rock (United Kingdom)
+Pub rock
 Punk rock
 Reggae rock
 Rock and roll
@@ -1644,13 +1597,8 @@ Sufi rock
 Surf rock
 Tropical rock
 Viking rock
-Visual kei
-Nagoya kei
 Wizard rock
 World fusion
-Main article: Metal music
-See also: Heavy metal genres
-Alternative metal
 Funk metal
 Nu metal
 Avant-garde metal
@@ -1660,7 +1608,6 @@ Depressive suicidal black metal
 Blackened death metal
 Atmospheric black metal
 Melodic black metal
-National Socialist black metal
 Symphonic black metal
 Viking metal
 Christian metal
@@ -1687,8 +1634,6 @@ Math metal
 Melodic metalcore
 Progressive metalcore
 Neoclassical metal
-New wave of American heavy metal
-New wave of British heavy metal
 Pirate metal
 Pop metal
 Power metal
@@ -1699,8 +1644,6 @@ Symphonic metal
 Thrash metal
 Crossover thrash
 Groove metal
-Main article: Punk rock
-See also: Punk rock subgenres
 Afro-punk
 Anarcho punk
 Crust punk
@@ -1721,7 +1664,6 @@ Gothic punk
 Crustgrind
 Goregrind
 Noisegrind
-Pornogrind
 Hardcore punk
 Bardcore
 Beatdown hardcore
@@ -1731,27 +1673,21 @@ Krishnacore
 Melodic hardcore
 Positive hardcore
 Post-hardcore
-Queercore
 Taqwacore
 Screamo
 Powerviolence
 Street punk
 Horror punk
 Latino punk
-Nazi punk
-Oi!
 Easycore
 Punkabilly
-Punk pathetique
 Reggae punk
-Riot grrrl
+Riot girl
 Ska punk
 Skate punk
 Surf punk
 Trallpunk
 Regional
-See also: List of cultural and regional genres of music
-African
 African heavy metal
 African hip hop
 African popular music
@@ -1760,86 +1696,41 @@ Afrobeat
 Apala
 Arabesque
 Bongo flava
-Boomba
 Bubu music
 Chaabi
 Chaoui music
 Congolese rumba
 Fuji music
 Gnawa
-Gumbe
-Igbo highlife
-Igbo rap
-Ikorodo
-Ikwokirikwo
-Kadongo Kamu
-Lingala
-Ma'luf
-Marabi
-Maskandi
-Music of Egypt
-Music of Nigeria
-Ndombolo
 Owerri Bongo
 Ojapiano
 Palm-wine
 Rumba
-Kwassa kwassa
 Zamrock
-Antarctica
-Nunatak (band)
-Asian
-Main articles: Music of Asia and Music of Southeast Asia
-Central Asian
-Shashmaqam
-Pashto music
-Kazakh folk music
-Kyrgyz folk music
 Mongolian folk music
+Mongolian Throat Singing
 Tuvan throat singing
 Tajik folk music
-East Asian
 Chinese:
 Chinese hip hop
 Chinese folk music
-Hong Kong
-China:
 Hong Kong English pop
 Hong Kong hip hop
-Taiwanese:
 Taiwanese hip hop
 Taiwanese pop
 Taiwanese rock
-Japanese:
 Japanese hip hop
 Japanese jazz
-Korean:
 Korean folk music
-South Asian
-Baul
-Bhawaiya
-Dappankuthu
-Dohori
 Indian classical
 Carnatic
 Hindustani classical
 Indian jazz
-Sri Lankan:
 Sri Lankan hip hop
 Southeast Asian
-Malaysian:
 Malaysian hip hop
 Malaysian pop
 Malaysian rock
-Indonesian:
-Gamelan
-Indo pop
-Sundanese pop
-Keroncong
-Thai:
-Luk thung
-Luk krung
-Thai pop
 Thai string pop
 Filipino:
 Original Pilipino
@@ -1865,7 +1756,6 @@ Indigenous music of Australia
 Music of Hawaii
 Music of New Zealand
 Māori music
-Kapa haka
 Music of Polynesia
 Music of Samoa
 European
@@ -1873,79 +1763,9 @@ Balkan States
 Balkan music
 Balkan brass
 Balkan folk music
-Music of Albania
-Music of Bosnia and Herzegovina
-Sevdalinka
-Music of Bulgaria
-Music of Cyprus
-Music of Greece
-Music of Kosovo
-Music of Montenegro
-Music of North Macedonia
-Music of Romania
 Romani music
-Manele
-Baltic States
-Lithuanian folk music
-Music of Estonia
-Music of Latvia
-Caucasus
-Music of Armenia
-Music of Azerbaijan
-Music of Georgia (country)
-Central European States
-Music of Austria
-Viennese waltz
-Yodeling
-Music of Croatia
-Music of the Czech Republic
-Music of Germany
-Music of Hungary
-Music of Liechtenstein
-Music of Poland
-Music of Serbia
-Music of Slovakia
-Music of Slovenia
-Music of Switzerland
-Nordic/Scandinavian States
-Nordic folk music
-Music of Denmark
-Danish traditional music
-Music of Finland
-Rautalanka (Finnish surf-rock)
-Music of Iceland
-Music of Norway
-Music of Sweden
-Music of the Faroe Islands
-Slavic States
-Music of Belarus
-Music of Moldova
-Music of Russia
-Music of Buryatia
-Russian folk music
-Music of Ukraine
-Music of Yugoslavia
-Western European
-Music of Andorra
-Music of Belgium
-Music of France
-Music of Ireland
-Music of Italy
-Music of Luxembourg
-Music of Malta
-Music of Monaco
-Music of the Netherlands
-Music of Portugal
-Music of Spain
-Music of the United Kingdom
-Music of Scotland
-Music of Wales
-Latin & South American
-Main article: Latin music
-See also: List of Latin music subgenres and Reggae genres
-Main article: Music of Brazil
-Música popular brasileira
-Música sertaneja
+Biyuo
+Bayou
 Bouyon
 Cadence-lypso
 Cha-cha-chá
@@ -1971,17 +1791,7 @@ Hispanic
 Boogaloo
 Bullerengue
 Flamenco
-Cantes de ida y vuelta
-Fandangos
-Soleá
-Alegrías
-Bulerías
-Peteneras
 Tango
-Toná
-Martinetes
-Tonás
-Grupera
 Hispanic rhythmic
 Latin Christian
 Latin alternative
@@ -1991,7 +1801,6 @@ Norteño
 Tropical
 Porro
 Guajira
-Música popular (Colombia)
 Salsa romántica
 Tropipop
 Urbano music
@@ -2443,11 +2252,7 @@ malian traditional
 maloya
 manila sound
 mantra
-maracatu
 marathi traditional
-marrabenta
-maskandi
-mbalax
 mbira
 melancholia
 mellow gold
@@ -2479,42 +2284,6 @@ morna
 moroccan traditional
 motown
 movie tunes
-mpb
-music box
-musica afroperuana
-musica blumenauense
-musica brasiliense
-musica cabo-verdiana
-musica campineira
-musica caririense
-musica eletronica brasileira
-musica folk asturiana
-musica gaucha tradicionalista
-musica indigena brasileira
-musica indigena mexicana
-musica lombarda
-musica mexicana
-musica mocambicana
-musica mogiana
-musica paranaense
-musica per bambini
-musica pernambucana
-musica piemonteisa
-musica portuguesa contemporanea
-musica prehispanica
-musica valenciana
-musiikkia lapista
-musiikkia lapsille
-musikkorps
-musique mandingue
-musique mauritanienne
-musique militaire
-musique nigerienne
-musique peule
-musique soninke
-musique touareg
-musique traditionnelle comorienne
-musique traditionnelle congolaise
 naat
 naija old school
 naija worship
