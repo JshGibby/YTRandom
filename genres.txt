@@ -4,8 +4,8 @@ Alternative Rock
 Britpunk
 College Rock
 Crossover Thrash
-Crust Punk (thx Haug)
-Emotional Hardcore (emo / emocore)
+Crust Punk
+Emotional Hardcore
 Experimental Rock
 Folk Punk
 Goth / Gothic Rock
@@ -65,7 +65,7 @@ Texas Blues
 Urban Blues
 Vandeville
 West Coast Blues
-Zydeco (also under ‘World’ genre)
+World Genre
 Children’s Music
 Lullabies
 Sing-Along
@@ -98,7 +98,7 @@ Orchestral
 Organum
 Renaissance
 Romantic (early period)
-Romantic (later period)
+Romantic (late period)
 Sonata
 Symphonic
 Symphony
@@ -106,12 +106,9 @@ Twelve-tone
 Wedding Music
 Comedy
 Novelty
-Parody Music (Weird Al!)
+Parody Music
 Stand-up Comedy
 Vaudeville
-Find some value? Use the list for a project? Consider a small donation!
-Buy me a Cuppa
-
 Commercial
 Jingles
 TV Themes
@@ -141,7 +138,7 @@ Dansband
 Honky Tonk
 Franco-Country
 Gulf and Western
-Hellbilly Music
+Hillbilly Music
 Honky Tonk
 Instrumental Country
 Lubbock Sound
@@ -159,7 +156,8 @@ Truck-Driving Country
 Urban Cowboy
 Western Swing
 Zydeco
-Dance (EDM – Electronic Dance Music – see Electronic below)
+Dance
+EDM
 Club / Club Dance
 Breakcore
 Breakbeat / Breakstep
@@ -200,7 +198,7 @@ Terrorcore
 Uk Hardcore
 Hard Dance
 Hi-NRG / Eurodance
-Horrorcore (thx Matt)
+Horrorcore
 House
 Acid House
 Chicago House
@@ -255,7 +253,6 @@ Dark Psytrance
 Full on
 Psybreaks
 Psyprog
-Suomisaundi
 Hard Trance
 Prog. Trance
 Psy-Trance
@@ -277,7 +274,7 @@ Middle of the Road
 Swing
 Electronic
 2-Step (thx Ran’dom Haug)
-8bit – aka 8-bit, Bitpop and Chiptune (see below)
+8bit – 8-bit, Bitpop and Chiptune
 Ambient
 Ambient Dub
 Ambient House
@@ -394,7 +391,7 @@ Grime
 Speed Garage
 Enka
 French Pop
-Folk Music (also under various other categories)
+Folk Music
 American Folk Revival
 Anti-Folk
 British Folk Revival
@@ -497,7 +494,6 @@ Power Electronics
 Power Noise
 Witch House
 Inspirational – Christian & Gospel
-CCM
 Christian Metal
 Christian Pop
 Christian Rap
@@ -512,7 +508,7 @@ Southern Gospel
 Traditional Gospel
 Instrumental
 March (Marching Band)
-J-Pop (also under ‘Asian’)
+J-Pop
 J-Rock
 J-Synth
 J-Ska
@@ -562,7 +558,7 @@ Post-Bop
 Punk Jazz
 Ragtime
 Ska Jazz
-Skiffle (also Folk)
+Skiffle Folk
 Smooth Jazz
 Soul Jazz
 Swing Jazz
@@ -572,7 +568,7 @@ Third Stream
 Jazz-Funk
 Free Jazz
 West Coast Jazz
-K-Pop (also under ‘Asian’)
+K-Pop
 Karaoke
 Kayokyoku
 Latin
@@ -580,57 +576,28 @@ Alternativo & Rock Latino
 Argentine Tango
 Bachata
 Baithak Gana
-Baladas y Boleros
 Bolero
 Bossa Nova
 Brazilian
-Axé
 Bossa Nova
 Brazilian Rock
-Brega
-Choro
-Forró
-Frevo
-Funk Carioca
-Lambada
-Maracatu
-Música Popular Brasileira
-Música Sertaneja
-Pagode
-Samba
-Samba Rock
-Tecnobrega
-Tropicalia
-Zouk-Lambada
-Chicha
-Criolla
 Contemporary Latin
 Cumbia
-Flamenco / Spanish Flamenco
-Huayno
-Joropo (popular style in Venezuela, and also in the llanos (plains) of Colombia)
+Flamenco Spanish
 Latin Jazz
 Mambo (Cuba)
 Mariachi
 Merengue Típico
-Nuevo Flamenco
 Pop Latino
-Portuguese Fado
-Punta
-Punta Rock
-Ranchera
-Raíces
-Raison
-Reggaeton y Hip-Hop
-Regional Mexicano
-Salsa y Tropical
+Reggaeton 
+Hip-Hop
+Mexicano
+Salsa 
+Tropical
 Soca
-Son
 Tejano
 Timba
-Twoubadou
 Vallenato
-Zouk
 Metal
 Heavy Metal
 Speed Metal
@@ -650,17 +617,15 @@ Groove Metal
 Industrial Metal
 Modern Metal
 Neoclassical Metal
-New Wave Of British Heavy Metal
+New Wave British Heavy Metal
 Post Metal
 Progressive Metal
 Avantgarde Metal
 Sludge
 Djent
-Drone
 Kawaii Metal
 Pirate Metal
 Nu Metal
-Neue Deutsche Härte
 Math Metal
 Crossover
 Grindcore
@@ -698,7 +663,6 @@ Russian Pop
 Dance Pop
 Dream Pop
 Electro Pop
-Iranian Pop
 Jangle Pop
 Latin Ballad
 Levenslied
@@ -734,12 +698,12 @@ Disco House
 Dream House
 Space House
 Japanese House
-Bounce / Scouse House
+Bounce Scouse House
 Progressive Breaks
 Progressive Drum & Bass
 Progressive Techno
-R&B/Soul
-(Carolina) Beach Music
+R&B Soul
+Carolina Beach Music
 Contemporary R&B
 Disco
 Doo Wop
@@ -767,16 +731,13 @@ Lovers Rock
 Raggamuffin
 Ragga
 Dancehall
-Ska
 2 Tone
 Dub
 Rocksteady
 Reggae Dancehall
 Rock
 Acid Rock
-Adult-Oriented Rock
 Afro Punk
-Adult Alternative
 Alternative Rock
 American Traditional Rock
 Anatolian Rock
@@ -784,195 +745,123 @@ Arena Rock
 Art Rock
 Blues-Rock
 British Invasion
-Cock Rock
-Death Metal / Black Metal
 Doom Metal
 Glam Rock
 Gothic Metal
 Grind Core
-Hair Metal
 Hard Rock
 Math Metal
 Math Rock
-Metal
-Metal Core
-Noise Rock (genre – Japanoise)
+Noise Rock
 Jam Bands
 Post Punk
 Post Rock
-Prog-Rock/Art Rock
+Prog-Rock
+Art Rock
 Progressive Metal
 Psychedelic
 Rock & Roll
 Rockabilly
 Roots Rock
-Singer/Songwriter
+Singer Songwriter
 Southern Rock
 Spazzcore
-Stoner Metal (duuuude)
-Surf
+Stoner Metal
+Surfing music
 Technical Death Metal
 Tex-Mex
 Thrash Metal
-Time Lord Rock (Trock)
+Time Lord Rock
 Trip-hop
-Yacht Rock (soft rock)
-Singer/Songwriter
+Yacht Rock 
+Soft rock
 Alternative Folk
 Contemporary Folk
 Contemporary Singer/Songwriter
 Indie Folk
 Folk-Rock
-Love Song (Chanson)
+Love Song
 New Acoustic
 Traditional Folk
 Soundtrack
-Foreign Cinema
 Movie Soundtrack
-Musicals
+Musical
 Original Score
 Soundtrack
 TV Soundtrack
 Spoken Word
-Tex-Mex / Tejano
-Chicano
-Classic
-Conjunto
-Conjunto Progressive
-New Mex
 Tex-Mex
-Vocal
+Tejano
+Chicano
+Classic Music
+Conjunto
+New Mex
+Vocal singing
 A cappella
 Barbershop
-Cantique (sacred vocal)
+Cantique
+Sacred Vocal
 Doo-wop
 Gregorian Chant
-Standards
 Traditional Pop
 Vocal Jazz
 Vocal Pop
-Yodel
-World
-Africa
+Yodelling
+World Genre
+African
+Tribal Music
 African Heavy Metal
 African Hip Hop
 Afro-Beat
 Afro-House
 Afro-Pop
-Apala (or akpala)
+Akpala
 Benga
 Bikutsi
 Bongo Flava
 Cape Jazz
 Chimurenga
-Coupé-Décalé
 Fuji Music
 Genge
-Gnawa (hypnotic trance)
-Highlife
-Hiplife
-Isicathamiya
-Jit
-Jùjú
-Kapuka
-Kizomba
-Kuduro
-Kwaito
-Kwela
-Lingala (Rumba Lingala / Congolese Rumba)
-Makossa
-Maloya
-Marrabenta
-Mbalax
-Mbaqanga
-Mbube
-Morna
-Museve
+Gnawa 
+hypnotic trance
+Highlife Benre
+Hiplife Genre
 Negro Spiritual
 Palm-Wine
-Raï
 Sakara
-Sega
-Seggae
 Semba
-Soukous
-Taarab
-Zouglou
-Asia
-Anison
-Baithak Gana
 C-Pop
 CityPop
 Cantopop
-Enka
 Hong Kong English Pop
-Fann At-Tanbura
 Fijiri
 J-Pop
 Japanese Pop
 K-Pop
-Khaliji
-Kayōkyoku
 Korean Pop
-Liwa
 Mandopop
-Onkyokei
 Taiwanese Pop
-T-Pop (Thai pop)
-Sawt
-Australia
-Cajun
+T-Pop
+Australian Pop
+Cajun Genre
 Calypso
 Caribbean
-Chutney
-Chutney Soca
-Compas
-Mambo
-Merengue
-Méringue
-Carnatic (Karnataka Sanghetha)
 Celtic
 Celtic Folk
 Contemporary Celtic
-Coupé-décalé – Congo
 Dangdut
 Drinking Songs
-Drone
-Europe – Portugal: Fado music is a form of Portuguese singing that is often associated with pubs, cafés, and restaurants.
-Europe – Greece: Laiko, Entechno, Rebetika
-Europe – Germany / Austria / Sweden / UK: Schlager (varies by country)
-France
-Hawaii
+Hawaiian
 Japan
-Klezmer
-Mbalax – Senegal
-Middle East
+Arabic
 North America
-Ode
-Piphat – Thailand
 Polka
-Soca
-South Africa
-South America
-South / Southeast Asia
-Baila
-Bhangra
-Bhojpuri
-Dangdut
-Filmi
 Indian Pop
 Hindustani
-Indian Ghazal
-Lavani
-Luk Thung
-Luk Krung
 Manila Sound
-Morlam
 Pinoy Pop
 Pop Sunda
-Ragini
-Thai Pop
-Traditional Celtic
 Worldbeat
 Zydeco
 Andalusian classical music
